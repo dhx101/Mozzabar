@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: repeat(9,10fr);
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+    background-color: rgb(55, 55, 55);
+}
+
+header img {
+    height: 100px;
+    grid-column: 2;
+}
+
+header nav {
+    grid-column: 5/9;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+header nav ul li a{
+    color: rgb(245, 245, 245);
+    font-size: large;
+    font-weight: 700;
+}
+
+.title {
+    background-image: url(https://www.momobel.com/sites/default/files/medidas_mesa_restaurante_distancia_entre_comensales.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .cursiva {
+    font-family: 'MonteCarlo', cursive;
+    color: rgb(255, 174, 0);
+    font-size: 75px;
+    height: 80px;
+}
+
+h1 {
+    font-size: 75px;
+    color: white;
+}
